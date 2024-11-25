@@ -1265,6 +1265,10 @@ T/B cell receptor sequencing analysis notes by Ming Tang. Also, [23 tools to wor
     <summary>Paper</summary>
     Cui, Haotian, Chloe Wang, Hassaan Maan, Kuan Pang, Fengning Luo, and Bo Wang. “ScGPT: Towards Building a Foundation Model for Single-Cell Multi-Omics Using Generative AI.” Preprint. Bioinformatics, May 1, 2023. https://doi.org/10.1101/2023.04.30.538439.
 </details>
+- [scaLR](https://github.com/infocusp/scaLR) -scaLR is a comprehensive end-to-end pipeline that is equipped with a range of advanced features to streamline and enhance the analysis of scRNA-seq data and provide the cell annotations and biomarker discovery using **low resource**. It is capable of efficiently handling datasets with millions of cells while providing accurate cell type annotations. Additional platform features include DGE analysis, gene recall curves, and heat maps of commonly associated cell-type genes. [Documentation](https://infocusp.github.io/scaLR/) and [Preprint](https://www.biorxiv.org/content/10.1101/2024.09.19.613226v1.full.pdf). <details>
+    <summary>Paper</summary>
+    Cui, Haotian, Chloe Wang, Hassaan Maan, Kuan Pang, Fengning Luo, and Bo Wang. “ScGPT: Towards Building a Foundation Model for Single-Cell Multi-Omics Using Generative AI.” Preprint. Bioinformatics, May 1, 2023. https://doi.org/10.1101/2023.04.30.538439.
+</details>
 
 - [CeLEry](https://github.com/QihuangZhang/CeLEry) (Cell Location recovEry) - spatial location prediction from scRNA-seq data. A feed-forward deep neural network trained on scRNA-seq and spatial transcriptomics. Data augmentation (variational autoencoder) improves performance. Logistic loss or rank-consistent logistic loss function (Methods). Tested on 10x Visium data ([LIBD](http://research.libd.org/spatialLIBD/) data), other human and mouse brain data obtained with different technologies, human liver cancer (MERSCOPE), also a HER2-positive, ESR1-positive, and PGR-negative breast tumor dataset obtained from the 10x Xenium platform. Benchmarked against Tangram, spaOTsc, novoSpaRc. <details>
     <summary>Paper</summary>
